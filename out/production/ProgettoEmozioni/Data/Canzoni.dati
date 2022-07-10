@@ -1,82 +1,80 @@
-Titolo,Autore,Anno,Genere
-,,,
-Smells like teen spirit,Nirvana,1991,Rock
-Whole lotta love,Led Zeppelin,1969,Rock
-Sympathy for the devil,The rolling stones,1968,Rock
-Bohemian Rhapsody,Queen,1975,Rock
-Under Pressure,Queen,1981,Rock
-Paranoid,Black Sabbath,1970,Rock
-Smoke on the water,Deep Purple,1972,Rock
-You shook me all night long,AC/DC,1980,Rock
-Highway to hell,AC/DC,1979,Rock
-Kickstart my heart,Motley Crue's,1989,Rock
-Umbrella,Rihanna,2007,Pop
-Toxic,Britney Spears,2003,Pop
-Firework,Katy Perry,2010,Pop
-Blinding Lights,The Weeknd,2020,Pop
-Call me maybe,Carly Rae Jepsen,2012,Pop
-Uptown funk,Mark Ronson and Bruno Mars,2014,Pop
-Poker face,Lady Gaga,2008,Pop
-Sorry,Justin Bieber,2015,Pop
-Happy,Pharrel Williams,2013,Pop
-Hotline Bling,drake,2015,Pop
-Lose yourself,Eminem,2002,Hip hop
-Still D.R.E,Dr.Dre and Snoop Dogg,1999,Hip hop
-In da Club,50 Cent,2003,Hip hop
-Ambitionz az a Ridah,Tupac Shakur,1996,Hip hop
-Rap god,Eminem,2013,Hip hop
-Goosebumps,Travis Scott,2016,Hip hop
-Look at me!,XXXTentacion,2015,Hip hop
-Lucid dreams,Juice Wrld,2018,Hip hop
-Rockstar,Post Malone,2018,Hip hop
-1984,Salmo,2016,Hip hop
-My funny valentine,Chet Baker,1937,Jazz
-Somewhere over the rainbow,Judy Garland,1939,Jazz
-Autumn leaves,Nat King Cole,1945,Jazz
-Summertime,Ella Fitzgerald and Louis Armstrong,Jazz
-Take five,Dave Brubeck Quartet,1959,Jazz
-Moon river,Audrey Hepbrun,1961
-Strange fruit,Billie Holiday,1939,Jazz
-Stolen moments,Oliver Nelson,1961,Jazz
-So what,Miles Davis,1959,Jazz
-Take the A train,Duke Ellington,1953,Jazz
-Gurenge,LiSA,2020,J-pop
-Kaikai kitan,Eve,2020,J-pop
-A cruel angel's thesis,Yoko Takahashi,1995,J-pop
-Shinzou wo sasageyo!,Linked Horizon,2017,J-pop
-Black catcher,Vickeblanka,2020,J-pop
-Red swan,Yoshiki Hayashi,2018,J-pop
-The rumbling,SiM,2022,J-pop
-Lost in paradise,Miura Jam,2021,J-pop
-Kyouran hey kids!!,The Oral Cigarettes,2016,J-pop
-Count what you have now,VANTAGE,2019,J-pop
-The trooper,The Iron Maidens,1983,Metal
-Enter sandman,Metallica,1991,Metal
-Breaking the law,Judas Priest,1980,Metal
-Sonne,Rammstein,2001,Metal
-Fade to black,Metallica,1984,Metal
-Walk,Pantera,1992,Metal
-Crazy train,Ozzy Osbourne,1980,Metal
-Master of puppets,Metallica,1986,Metal
-Highway star,Deep Purple,1972,Metal
-Holy diver,Dio,1983,Metal
-Controlla,Idealism,2016,LoFi
-Summer nights.,Halberd,2017,LoFi
-Now that you're gone,Kavv,2018,LoFi
-Home,Aso,2019,LoFi
-Thinking of you,Mommy,2018,LoFi
-Snowman,WYS,2019,LoFi
-Pluto,Drkmnd,2020,LoFi
-Wherewithal,Bokki,2019,LoFi
-Sorry,Chief.,2017,LoFi
-Blue roses,Toonorth,2019,LoFi
-Fur Elise,Ludwig Van Beethoven,1810,Classica
-Moonlight sonata,Ludwig Van Beethoven,1801,Classica
-Choral,Ludwig Van Beethoven,1824,Classica
-Ave maria,Charles Gounod,1859,Classica
-Messiah,George Frideric Handel,1741,Classica
-The Blue Danube,Johann Strauss,1866,Classica
-The four season,Vivaldi,1723,Classica
-Canon in d major,pachelbel,1919,Classica
-The marriage of figaro,Wolfgang Amadeus Mozart,1786,Classica
-La campanella,Paganini,1838,Classica
+Smells like teen spirit;Nirvana;1991;Rock;
+Whole lotta love;Led Zeppelin;1969;Rock;
+Sympathy for the devil;The rolling stones;1968;Rock;
+Bohemian Rhapsody;Queen;1975;Rock;
+Under Pressure;Queen;1981;Rock;
+Paranoid;Black Sabbath;1970;Rock;
+Smoke on the water;Deep Purple;1972;Rock;
+You shook me all night long;AC/DC;1980;Rock;
+Highway to hell;AC/DC;1979;Rock;
+Kickstart my heart;Motley Crue's;1989;Rock;
+Umbrella;Rihanna;2007;Pop;
+Toxic;Britney Spears;2003;Pop;
+Firework;Katy Perry;2010;Pop;
+Blinding Lights;The Weeknd;2020;Pop;
+Call me maybe;Carly Rae Jepsen;2012;Pop;
+Uptown funk;Mark Ronson and Bruno Mars;2014;Pop;
+Poker face;Lady Gaga;2008;Pop;
+Sorry;Justin Bieber;2015;Pop;
+Happy;Pharrel Williams;2013;Pop;
+Hotline Bling;drake;2015;Pop;
+Lose yourself;Eminem;2002;Hip hop;
+Still D.R.E;Dr.Dre and Snoop Dogg;1999;Hip hop;
+In da Club;50 Cent;2003;Hip hop;
+Ambitionz az a Ridah;Tupac Shakur;1996;Hip hop;
+Rap god;Eminem;2013;Hip hop;
+Goosebumps;Travis Scott;2016;Hip hop;
+Look at me!;XXXTentacion;2015;Hip hop;
+Lucid dreams;Juice Wrld;2018;Hip hop;
+Rockstar;Post Malone;2018;Hip hop;
+1984;Salmo;2016;Hip hop;
+My funny valentine;Chet Baker;1937;Jazz;
+Somewhere over the rainbow;Judy Garland;1939;Jazz;
+Autumn leaves;Nat King Cole;1945;Jazz;
+Summertime;Ella Fitzgerald and Louis Armstrong;1920;Jazz;
+Take five;Dave Brubeck Quartet;1959;Jazz;
+Moon river;Audrey Hepbrun;1961;Jazz;
+Strange fruit;Billie Holiday;1939;Jazz;
+Stolen moments;Oliver Nelson;1961;Jazz;
+So what;Miles Davis;1959;Jazz;
+Take the A train;Duke Ellington;1953;Jazz;
+Gurenge;LiSA;2020;J-pop;
+Kaikai kitan;Eve;2020;J-pop;
+A cruel angel's thesis;Yoko Takahashi;1995;J-pop;
+Shinzou wo sasageyo!;Linked Horizon;2017;J-pop;
+Black catcher;Vickeblanka;2020;J-pop;
+Red swan;Yoshiki Hayashi;2018;J-pop;
+The rumbling;SiM;2022;J-pop;
+Lost in paradise;Miura Jam;2021;J-pop;
+Kyouran hey kids!!;The Oral Cigarettes;2016;J-pop;
+Count what you have now;VANTAGE;2019;J-pop;
+The trooper;The Iron Maidens;1983;Metal;
+Enter sandman;Metallica;1991;Metal;
+Breaking the law;Judas Priest;1980;Metal;
+Sonne;Rammstein;2001;Metal;
+Fade to black;Metallica;1984;Metal;
+Walk;Pantera;1992;Metal;
+Crazy train;Ozzy Osbourne;1980;Metal;
+Master of puppets;Metallica;1986;Metal;
+Highway star;Deep Purple;1972;Metal;
+Holy diver;Dio;1983;Metal;
+Controlla;Idealism;2016;LoFi;
+Summer nights.;Halberd;2017;LoFi;
+Now that you're gone;Kavv;2018;LoFi;
+Home;Aso;2019;LoFi;
+Thinking of you;Mommy;2018;LoFi;
+Snowman;WYS;2019;LoFi;
+Pluto;Drkmnd;2020;LoFi;
+Wherewithal;Bokki;2019;LoFi;
+Sorry;Chief.;2017;LoFi;
+Blue roses;Toonorth;2019;LoFi;
+Fur Elise;Ludwig Van Beethoven;1810;Classica;
+Moonlight sonata;Ludwig Van Beethoven;1801;Classica;
+Choral;Ludwig Van Beethoven;1824;Classica;
+Ave maria;Charles Gounod;1859;Classica;
+Messiah;George Frideric Handel;1741;Classica;
+The Blue Danube;Johann Strauss;1866;Classica;
+The four season;Vivaldi;1723;Classica;
+Canon in d major;pachelbel;1919;Classica;
+The marriage of figaro;Wolfgang Amadeus Mozart;1786;Classica;
+La campanella;Paganini;1838;Classica;

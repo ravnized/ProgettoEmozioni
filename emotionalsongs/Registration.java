@@ -9,7 +9,6 @@ public class Registration {
     static char CSV_SEPARATOR = ';';
     String nomeCognome = "", codiceFiscale = "", indirizzo = "", email = "", userId = "", password = "";
 
-
     public Registration(String nomeCognome, String codiceFiscale, String indirizzo, String email, String userId, String password) {
         this.nomeCognome = nomeCognome;
         this.codiceFiscale = codiceFiscale;
@@ -79,12 +78,12 @@ public class Registration {
     }
 
 
-    public static LinkedList<Registration> readRegistrati(String filepath) {
+    public static LinkedList<Registration> readRegistrati() {
         LinkedList<Registration> list = new LinkedList<>();
-        File file = new File(filepath);
+        File file = new File(filepathRegistrati);
         if (!file.exists()) return list;
         try {
-            BufferedReader reader = new BufferedReader(new FileReader(filepath));
+            BufferedReader reader = new BufferedReader(new FileReader(filepathRegistrati));
             String[] campiTotali;
             while (true) {
                 int i = 0;
@@ -140,7 +139,7 @@ public class Registration {
 
 
     private static boolean registratiVisualizer() {
-        LinkedList<Registration> registrati = readRegistrati(filepathRegistrati);
+        LinkedList<Registration> registrati = readRegistrati();
         if (registrati != null) {
             for (Registration registration : registrati) {
                 System.out.println("\n");
@@ -159,10 +158,30 @@ public class Registration {
 
     private static boolean registraUtente(String nomeCognome, String codiceFiscale, String indirizzo, String email, String userId, String password) {
         Registration utenteRegistrato = new Registration(nomeCognome, codiceFiscale, indirizzo, email, userId, password);
-        LinkedList<Registration> utentiRegistratiList = Registration.readRegistrati(filepathRegistrati);
+        LinkedList<Registration> utentiRegistratiList = Registration.readRegistrati();
         utentiRegistratiList.addLast(utenteRegistrato);
         writeRegistrati(utentiRegistratiList);
         return true;
+    }
+
+    public static boolean login(String userid, String password) {
+
+        if (userid.equals("") || userid.equals(" ") || password.equals("") || password.equals(" ")) {
+            return false;
+        }
+        LinkedList<Registration> listUtenti = readRegistrati();
+        if (listUtenti == null) {
+            return false;
+        }
+
+        for (Registration user : listUtenti) {
+
+            if (user.userId.equalsIgnoreCase(userid) && user.password.equalsIgnoreCase(password)) {
+                return true;
+            }
+        }
+        System.out.println("Userid o Password non corretti");
+        return false;
     }
 
 
