@@ -3,6 +3,7 @@ package emotionalsongs;
 import java.io.*;
 import java.nio.charset.StandardCharsets;
 import java.util.LinkedList;
+import java.util.Objects;
 
 public class Registration {
     private static final String filepathRegistrati = "data/UtentiRegistrati.dati";
@@ -19,6 +20,12 @@ public class Registration {
     }
 
     private static void merge(Registration[] arr, int l, int m, int r) {
+
+        Objects.requireNonNull(arr);
+        Objects.requireNonNull(l);
+        Objects.requireNonNull(m);
+        Objects.requireNonNull(r);
+
 
         int n1 = m - l + 1;
         int n2 = r - m;
@@ -63,6 +70,9 @@ public class Registration {
     }
 
     private static void sort(Registration[] arr, int l, int r) {
+        Objects.requireNonNull(arr);
+        Objects.requireNonNull(l);
+        Objects.requireNonNull(r);
         if (l < r) {
 
             int m = l + (r - l) / 2;
@@ -104,6 +114,7 @@ public class Registration {
     }
 
     public static boolean writeRegistrati(LinkedList<Registration> utentiRegistrati) {
+        Objects.requireNonNull(utentiRegistrati);
         final int arraySize = utentiRegistrati.size();
         Registration[] arrayRegistrati = new Registration[arraySize];
         int i = 0;
@@ -156,7 +167,16 @@ public class Registration {
         return false;
     }
 
+
     private static boolean registraUtente(String nomeCognome, String codiceFiscale, String indirizzo, String email, String userId, String password) {
+
+        Objects.requireNonNull(nomeCognome);
+        Objects.requireNonNull(codiceFiscale);
+        Objects.requireNonNull(indirizzo);
+        Objects.requireNonNull(email);
+        Objects.requireNonNull(userId);
+        Objects.requireNonNull(password);
+
         Registration utenteRegistrato = new Registration(nomeCognome, codiceFiscale, indirizzo, email, userId, password);
         LinkedList<Registration> utentiRegistratiList = Registration.readRegistrati();
         utentiRegistratiList.addLast(utenteRegistrato);
@@ -166,29 +186,21 @@ public class Registration {
 
     public static boolean login(String userid, String password) {
 
-        if (userid.equals("") || userid.equals(" ") || password.equals("") || password.equals(" ")) {
-            return false;
-        }
+        Objects.requireNonNull(userid);
+        Objects.requireNonNull(password);
+
         LinkedList<Registration> listUtenti = readRegistrati();
-        if (listUtenti == null) {
-            return false;
-        }
 
-        for (Registration user : listUtenti) {
+        if (listUtenti != null) {
+            for (Registration user : listUtenti) {
 
-            if (user.userId.equalsIgnoreCase(userid) && user.password.equalsIgnoreCase(password)) {
-                return true;
+                if (user.userId.equalsIgnoreCase(userid) && user.password.equalsIgnoreCase(password)) {
+                    return true;
+                }
             }
         }
         System.out.println("Userid o Password non corretti");
         return false;
-    }
-
-
-    public static void main(String[] args) {
-        registraUtente("pippo", "TRNGPL99C03D912N", "via don minzoni 9", "ravndeveloper@gmail.com", "ravnized", "030399");
-        registratiVisualizer();
-
     }
 
 
